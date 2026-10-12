@@ -1,0 +1,1091 @@
+{
+  "id": "nrt28-32-2p",
+  "title": "熔断器底座",
+  "model": "NRT28-32 · 2P",
+  "repo": "nrt28-32-2p-classroom",
+  "kind": "fuse",
+  "poles": 2,
+  "sourceFilename": "NRT28-32 2P熔断器-底座三维模型202011.stp",
+  "sourceUrl": "https://www.chintglobal.com/gb/en/products/low-voltage/iec/secondary-power-distribution/nrt28.html",
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "subtitle": "认识底座、载熔件和熔断体的关系。",
+  "summary": "提供的 CAD 是 NRT28-32 熔断器底座。教学结构另外补入熔断体与熔体，便于理解回路怎样被分断。",
+  "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。",
+  "actions": [
+    [
+      "remove",
+      "取出载熔件"
+    ],
+    [
+      "insert",
+      "装回载熔件"
+    ],
+    [
+      "fuse",
+      "熔断示意"
+    ],
+    [
+      "replace",
+      "更换熔断体"
+    ]
+  ],
+  "steps": [
+    "装入完整熔断体",
+    "夹持触头连接",
+    "熔体熔断开路",
+    "更换后恢复"
+  ],
+  "parts": [
+    {
+      "id": "factory_001",
+      "originalName": "NRT28-32DIZUO-W",
+      "ancestors": [
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          2.1000003814697266,
+          -26.30000114440918,
+          -41.000003814697266
+        ],
+        [
+          18.500009536743164,
+          32.0,
+          37.5
+        ]
+      ],
+      "triangles": 23288,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_002",
+      "originalName": "NRT28-32ZHICHIJIAN-W",
+      "ancestors": [
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          0.49999886751174927,
+          -32.000003814697266,
+          -23.998998641967773
+        ],
+        [
+          17.900012969970703,
+          8.300004959106445,
+          23.50000762939453
+        ]
+      ],
+      "triangles": 6820,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_003",
+      "originalName": "NRT28-32GAI-W",
+      "ancestors": [
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          4.265801010205905e-07,
+          -26.299999237060547,
+          -41.000003814697266
+        ],
+        [
+          6.600008964538574,
+          32.0,
+          37.5
+        ]
+      ],
+      "triangles": 17228,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_004",
+      "originalName": "NRT28-32KABAN-W",
+      "ancestors": [
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          3.1000068187713623,
+          25.59999656677246,
+          15.700019836425781
+        ],
+        [
+          15.100008964538574,
+          31.399953842163086,
+          41.0
+        ]
+      ],
+      "triangles": 4868,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_005",
+      "originalName": "=>[0:1:1:10]",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU",
+        "RT28N-32JXZZJ_AF1_ASM_4",
+        "RT28N-32CHAZUOZUJIAN-W",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          5.600006580352783,
+          2.200000286102295,
+          24.90000343322754
+        ],
+        [
+          14.300008773803711,
+          15.000000953674316,
+          33.500003814697266
+        ]
+      ],
+      "triangles": 1762,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_006",
+      "originalName": "=>[0:1:1:11]",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU",
+        "RT28N-32JXZZJ_AF1_ASM_4",
+        "RT28N-32CHAZUOZUJIAN-W",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          7.450007438659668,
+          2.200000524520874,
+          26.752519607543945
+        ],
+        [
+          12.450007438659668,
+          4.800000190734863,
+          31.747486114501953
+        ]
+      ],
+      "triangles": 140,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_007",
+      "originalName": "=>[0:1:1:13]",
+      "ancestors": [
+        "RT28N-32LUODING1",
+        "RT28N-32JXZZJ_AF1_ASM_4",
+        "RT28N-32CHAZUOZUJIAN-W",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          5.950004577636719,
+          -3.0000016689300537,
+          25.2540283203125
+        ],
+        [
+          13.950008392333984,
+          11.800002098083496,
+          33.2459716796875
+        ]
+      ],
+      "triangles": 1588,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_008",
+      "originalName": "=>[0:1:1:14]",
+      "ancestors": [
+        "RT28N-32LUODING1",
+        "RT28N-32JXZZJ_AF1_ASM_4",
+        "RT28N-32CHAZUOZUJIAN-W",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          7.700006008148193,
+          -8.683297210154706e-07,
+          27.0
+        ],
+        [
+          12.200007438659668,
+          10.216667175292969,
+          31.5
+        ]
+      ],
+      "triangles": 142,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_009",
+      "originalName": "RT28-32CHAZUO-R4D-W",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          3.900003671646118,
+          -7.473735332489014,
+          5.7000017166137695
+        ],
+        [
+          16.100011825561523,
+          14.899999618530273,
+          35.20001220703125
+        ]
+      ],
+      "triangles": 2120,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_010",
+      "originalName": "RT28N-32KAHUANG-W",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          2.83123517036438,
+          -3.051630735397339,
+          13.439040184020996
+        ],
+        [
+          17.312820434570312,
+          13.826306343078613,
+          15.104337692260742
+        ]
+      ],
+      "triangles": 12256,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_011",
+      "originalName": "=>[0:1:1:10].001",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU.001",
+        "RT28N-32JXZZJ_AF1_ASM_4.001",
+        "RT28N-32CHAZUOZUJIAN-W.001",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          5.600001335144043,
+          2.1999990940093994,
+          -37.0
+        ],
+        [
+          14.300003051757812,
+          15.0,
+          -28.399999618530273
+        ]
+      ],
+      "triangles": 1762,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_012",
+      "originalName": "=>[0:1:1:11].001",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU.001",
+        "RT28N-32JXZZJ_AF1_ASM_4.001",
+        "RT28N-32CHAZUOZUJIAN-W.001",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          7.450001239776611,
+          2.1999990940093994,
+          -35.24748229980469
+        ],
+        [
+          12.45000171661377,
+          4.799998760223389,
+          -30.252517700195312
+        ]
+      ],
+      "triangles": 140,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_013",
+      "originalName": "=>[0:1:1:13].001",
+      "ancestors": [
+        "RT28N-32LUODING1.001",
+        "RT28N-32JXZZJ_AF1_ASM_4.001",
+        "RT28N-32CHAZUOZUJIAN-W.001",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          5.950000286102295,
+          -3.000002384185791,
+          -36.7459716796875
+        ],
+        [
+          13.950003623962402,
+          11.800002098083496,
+          -28.754024505615234
+        ]
+      ],
+      "triangles": 1588,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_014",
+      "originalName": "=>[0:1:1:14].001",
+      "ancestors": [
+        "RT28N-32LUODING1.001",
+        "RT28N-32JXZZJ_AF1_ASM_4.001",
+        "RT28N-32CHAZUOZUJIAN-W.001",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          7.700001239776611,
+          -1.7157906313514104e-06,
+          -35.0
+        ],
+        [
+          12.200002670288086,
+          10.216666221618652,
+          -30.499996185302734
+        ]
+      ],
+      "triangles": 142,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_015",
+      "originalName": "RT28-32CHAZUO-R4D-W.001",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W.001",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          3.799996852874756,
+          -7.473735332489014,
+          -38.700008392333984
+        ],
+        [
+          16.0000057220459,
+          14.899999618530273,
+          -9.19999885559082
+        ]
+      ],
+      "triangles": 2120,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_016",
+      "originalName": "RT28N-32KAHUANG-W.001",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W.001",
+        "NRT28-32-1P",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          2.5871894359588623,
+          -3.051628589630127,
+          -18.604333877563477
+        ],
+        [
+          17.06877326965332,
+          13.82630729675293,
+          -16.93903923034668
+        ]
+      ],
+      "triangles": 12256,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_017",
+      "originalName": "NRT28-32LIANJIEJIAN",
+      "ancestors": [
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -7.899870872497559,
+          14.90000057220459,
+          15.25301742553711
+        ],
+        [
+          8.899885177612305,
+          20.899999618530273,
+          21.246980667114258
+        ]
+      ],
+      "triangles": 6244,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_018",
+      "originalName": "NRT28-32LIANJIEJIAN.001",
+      "ancestors": [
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -7.899873733520508,
+          14.90000057220459,
+          -24.746980667114258
+        ],
+        [
+          8.899882316589355,
+          20.900001525878906,
+          -18.75301742553711
+        ]
+      ],
+      "triangles": 6244,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_019",
+      "originalName": "NRT28-32DIZUO-W.001",
+      "ancestors": [
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -16.399999618530273,
+          -26.30000114440918,
+          -41.000003814697266
+        ],
+        [
+          7.504555924242595e-06,
+          32.0,
+          37.5
+        ]
+      ],
+      "triangles": 23288,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_020",
+      "originalName": "NRT28-32ZHICHIJIAN-W.001",
+      "ancestors": [
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -18.000001907348633,
+          -32.000003814697266,
+          -23.998998641967773
+        ],
+        [
+          -0.5999885201454163,
+          8.300004959106445,
+          23.50000762939453
+        ]
+      ],
+      "triangles": 6820,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_021",
+      "originalName": "NRT28-32GAI-W.001",
+      "ancestors": [
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -18.5,
+          -26.299999237060547,
+          -41.000003814697266
+        ],
+        [
+          -11.899991989135742,
+          32.0,
+          37.5
+        ]
+      ],
+      "triangles": 17228,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_022",
+      "originalName": "NRT28-32KABAN-W.001",
+      "ancestors": [
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -15.399993896484375,
+          25.59999656677246,
+          15.700019836425781
+        ],
+        [
+          -3.3999922275543213,
+          31.399953842163086,
+          41.0
+        ]
+      ],
+      "triangles": 4868,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_023",
+      "originalName": "=>[0:1:1:10].002",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU.002",
+        "RT28N-32JXZZJ_AF1_ASM_4.002",
+        "RT28N-32CHAZUOZUJIAN-W.002",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -12.899992942810059,
+          2.200000286102295,
+          24.90000343322754
+        ],
+        [
+          -4.199991703033447,
+          15.000000953674316,
+          33.500003814697266
+        ]
+      ],
+      "triangles": 1762,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_024",
+      "originalName": "=>[0:1:1:11].002",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU.002",
+        "RT28N-32JXZZJ_AF1_ASM_4.002",
+        "RT28N-32CHAZUOZUJIAN-W.002",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -11.049993515014648,
+          2.200000524520874,
+          26.752519607543945
+        ],
+        [
+          -6.049992561340332,
+          4.800000190734863,
+          31.747486114501953
+        ]
+      ],
+      "triangles": 140,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_025",
+      "originalName": "=>[0:1:1:13].002",
+      "ancestors": [
+        "RT28N-32LUODING1.002",
+        "RT28N-32JXZZJ_AF1_ASM_4.002",
+        "RT28N-32CHAZUOZUJIAN-W.002",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -12.549995422363281,
+          -3.0000016689300537,
+          25.2540283203125
+        ],
+        [
+          -4.549991607666016,
+          11.800002098083496,
+          33.2459716796875
+        ]
+      ],
+      "triangles": 1588,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_026",
+      "originalName": "=>[0:1:1:14].002",
+      "ancestors": [
+        "RT28N-32LUODING1.002",
+        "RT28N-32JXZZJ_AF1_ASM_4.002",
+        "RT28N-32CHAZUOZUJIAN-W.002",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -10.799994468688965,
+          -8.683297210154706e-07,
+          27.0
+        ],
+        [
+          -6.29999303817749,
+          10.216667175292969,
+          31.5
+        ]
+      ],
+      "triangles": 142,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_027",
+      "originalName": "RT28-32CHAZUO-R4D-W.002",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W.002",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -14.599996566772461,
+          -7.473735332489014,
+          5.7000017166137695
+        ],
+        [
+          -2.3999876976013184,
+          14.899999618530273,
+          35.20001220703125
+        ]
+      ],
+      "triangles": 2120,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_028",
+      "originalName": "RT28N-32KAHUANG-W.002",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W.002",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -15.6687650680542,
+          -3.051630735397339,
+          13.439040184020996
+        ],
+        [
+          -1.187179684638977,
+          13.826306343078613,
+          15.104337692260742
+        ]
+      ],
+      "triangles": 12256,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_029",
+      "originalName": "=>[0:1:1:10].003",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU.003",
+        "RT28N-32JXZZJ_AF1_ASM_4.003",
+        "RT28N-32CHAZUOZUJIAN-W.003",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -12.899998664855957,
+          2.1999990940093994,
+          -37.0
+        ],
+        [
+          -4.1999969482421875,
+          15.0,
+          -28.399999618530273
+        ]
+      ],
+      "triangles": 1762,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_030",
+      "originalName": "=>[0:1:1:11].003",
+      "ancestors": [
+        "RT28N-32JIEXIANZHU.003",
+        "RT28N-32JXZZJ_AF1_ASM_4.003",
+        "RT28N-32CHAZUOZUJIAN-W.003",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -11.04999828338623,
+          2.1999990940093994,
+          -35.24748229980469
+        ],
+        [
+          -6.049997806549072,
+          4.799998760223389,
+          -30.252517700195312
+        ]
+      ],
+      "triangles": 140,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_031",
+      "originalName": "=>[0:1:1:13].003",
+      "ancestors": [
+        "RT28N-32LUODING1.003",
+        "RT28N-32JXZZJ_AF1_ASM_4.003",
+        "RT28N-32CHAZUOZUJIAN-W.003",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -12.55000114440918,
+          -3.000002384185791,
+          -36.7459716796875
+        ],
+        [
+          -4.549997329711914,
+          11.800002098083496,
+          -28.754024505615234
+        ]
+      ],
+      "triangles": 1588,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_032",
+      "originalName": "=>[0:1:1:14].003",
+      "ancestors": [
+        "RT28N-32LUODING1.003",
+        "RT28N-32JXZZJ_AF1_ASM_4.003",
+        "RT28N-32CHAZUOZUJIAN-W.003",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -10.800000190734863,
+          -1.7157906313514104e-06,
+          -35.0
+        ],
+        [
+          -6.299998760223389,
+          10.216666221618652,
+          -30.499996185302734
+        ]
+      ],
+      "triangles": 142,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_033",
+      "originalName": "RT28-32CHAZUO-R4D-W.003",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W.003",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -14.700003623962402,
+          -7.473735332489014,
+          -38.700008392333984
+        ],
+        [
+          -2.4999947547912598,
+          14.899999618530273,
+          -9.19999885559082
+        ]
+      ],
+      "triangles": 2120,
+      "geometryOrigin": "factory"
+    },
+    {
+      "id": "factory_034",
+      "originalName": "RT28N-32KAHUANG-W.003",
+      "ancestors": [
+        "RT28N-32CHAZUOZUJIAN-W.003",
+        "NRT28-32-1P.001",
+        "NRT28-32-2P_ASM"
+      ],
+      "bounds_mm": [
+        [
+          -15.912810325622559,
+          -3.051628589630127,
+          -18.604333877563477
+        ],
+        [
+          -1.4312267303466797,
+          13.82630729675293,
+          -16.93903923034668
+        ]
+      ],
+      "triangles": 12256,
+      "geometryOrigin": "factory"
+    }
+  ],
+  "factoryTriangles": 188928,
+  "factoryDisassembly": true,
+  "factoryGroups": [
+    {
+      "id": "cover",
+      "title": "原厂盖板",
+      "description": "原厂 STEP 中实际存在的几何部件",
+      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
+      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
+      "members": [
+        "factory_003",
+        "factory_021"
+      ],
+      "offset": [
+        0,
+        0,
+        35
+      ],
+      "memberOffsets": {
+        "factory_003": [
+          14,
+          0,
+          0
+        ],
+        "factory_021": [
+          -14,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "support",
+      "title": "原厂支持组件",
+      "description": "原厂 STEP 中实际存在的几何部件",
+      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
+      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
+      "members": [
+        "factory_002",
+        "factory_020"
+      ],
+      "offset": [
+        0,
+        0,
+        18
+      ]
+    },
+    {
+      "id": "base",
+      "title": "底座与接线组件",
+      "description": "原厂 STEP 中实际存在的几何部件",
+      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
+      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
+      "members": [
+        "factory_001",
+        "factory_004",
+        "factory_005",
+        "factory_006",
+        "factory_007",
+        "factory_008",
+        "factory_009",
+        "factory_010",
+        "factory_011",
+        "factory_012",
+        "factory_013",
+        "factory_014",
+        "factory_015",
+        "factory_016",
+        "factory_017",
+        "factory_018",
+        "factory_019",
+        "factory_022",
+        "factory_023",
+        "factory_024",
+        "factory_025",
+        "factory_026",
+        "factory_027",
+        "factory_028",
+        "factory_029",
+        "factory_030",
+        "factory_031",
+        "factory_032",
+        "factory_033",
+        "factory_034"
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "teachingNote": "这些内部结构是按功能关系补建的三维教学示意，形状、尺寸和运动不声称为原厂工程复原。",
+  "topics": [
+    {
+      "id": "carrier",
+      "title": "载熔件",
+      "description": "取出或装入熔断体",
+      "bounds_mm": [
+        [
+          -18.5,
+          -25.500001907348633,
+          11.0
+        ],
+        [
+          18.5,
+          23.500001907348633,
+          20.000001907348633
+        ]
+      ],
+      "explodeOffset": [
+        0,
+        0,
+        9
+      ],
+      "geometryOrigin": "teaching",
+      "summary": "载熔件承载熔断体，便于装入或取出。选择某一极后只改变该极的演示状态。",
+      "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。"
+    },
+    {
+      "id": "fuselink",
+      "title": "熔断体",
+      "description": "陶瓷外壳与金属端帽",
+      "bounds_mm": [
+        [
+          -15.70000171661377,
+          -18.500001907348633,
+          -0.20000016689300537
+        ],
+        [
+          15.70000171661377,
+          18.500001907348633,
+          10.20000171661377
+        ]
+      ],
+      "explodeOffset": [
+        0,
+        0,
+        17
+      ],
+      "geometryOrigin": "teaching",
+      "summary": "教学补入的熔断体由绝缘外壳、金属端帽与内部熔体示意构成，原文件提供的是底座。",
+      "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。"
+    },
+    {
+      "id": "filament",
+      "title": "熔体",
+      "description": "熔断后电路开路",
+      "bounds_mm": [
+        [
+          -11.000000953674316,
+          -14.500000953674316,
+          10.75
+        ],
+        [
+          11.000000953674316,
+          14.500000953674316,
+          11.250000953674316
+        ]
+      ],
+      "explodeOffset": [
+        0,
+        0,
+        25
+      ],
+      "geometryOrigin": "teaching",
+      "summary": "熔体在保护动作中熔断，使对应回路开路。它不能通过按钮复位，只能用完整熔断体更换。",
+      "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。"
+    },
+    {
+      "id": "contacts",
+      "title": "夹持触头",
+      "description": "连接熔断体两端",
+      "bounds_mm": [
+        [
+          -16.5,
+          -23.500001907348633,
+          0.5
+        ],
+        [
+          16.5,
+          23.500001907348633,
+          3.500000238418579
+        ]
+      ],
+      "explodeOffset": [
+        0,
+        0,
+        33
+      ],
+      "geometryOrigin": "teaching",
+      "summary": "动触头与静触头的接触或分离决定回路状态。触头配色用于区分结构，不代表材料牌号。",
+      "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。"
+    },
+    {
+      "id": "terminals",
+      "title": "接线端子",
+      "description": "各极回路独立连接",
+      "bounds_mm": [
+        [
+          -16.5,
+          -32.500003814697266,
+          -2.500000238418579
+        ],
+        [
+          16.5,
+          32.500003814697266,
+          8.500000953674316
+        ]
+      ],
+      "explodeOffset": [
+        0,
+        0,
+        41
+      ],
+      "geometryOrigin": "teaching",
+      "summary": "进线端与出线端属于各自的一极回路。器件壳架标识不能直接当成所有规格的额定工作电流。",
+      "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。"
+    },
+    {
+      "id": "housing",
+      "title": "绝缘底座",
+      "description": "支承并隔离各极",
+      "bounds_mm": [
+        [
+          -20.000001907348633,
+          -31.000001907348633,
+          -13.000000953674316
+        ],
+        [
+          20.000001907348633,
+          31.000001907348633,
+          -7.000000476837158
+        ]
+      ],
+      "explodeOffset": [
+        0,
+        0,
+        45
+      ],
+      "geometryOrigin": "teaching",
+      "summary": "壳体支承各工作部件并保护接线位置。教学视图采用半透明壳体以显示内部关系。",
+      "behavior": "各极回路分别观察。熔体熔断后该极开路，重新装回已经熔断的熔断体仍然开路；更换完整熔断体后恢复。"
+    }
+  ]
+}
